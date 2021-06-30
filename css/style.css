@@ -23,6 +23,29 @@
  }
  }
 
+
+#sobre{
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+
+#sobre h1, h3, p {
+
+ width: 100%;
+  text-align: center;
+
+}
+
+#sobre .sobre {
+  width: 25%;
+  text-align: center;
+}
+.imgsobre {
+  width: 20%;
+  height: 20%;
+}
+
+
  html {
 
   scroll-behavior: smooth;
@@ -39,7 +62,7 @@
 
 header,footer {
 background-color: rgba(0,191,255); 
-padding: 7%;
+padding:7%;
 position: relative;
 display: flex;
 flex-direction: column;
@@ -201,9 +224,8 @@ font-size: 1em ;
 }
 .imglogo {
 position: absolute;
-top: 20px;
-
-
+top: 100px;
+left: 20px;
 
 }
 
@@ -214,3 +236,7 @@ display: inline;
 left: 5%;
 
 }
+
+.fundo{
+  background-color: #fff;
+} 
